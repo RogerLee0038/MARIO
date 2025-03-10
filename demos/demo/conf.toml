@@ -1,0 +1,28 @@
+[algorithm]
+algo_list = [
+    "mpybobyqa",
+    "mpycma",
+    "mturbo_at"
+]
+num_worker_list = [
+    1,
+    2,
+    2,
+]
+together = true
+seed = 273507983
+
+[target]
+func_name = "ackley"
+in_dim = 10
+func_sleep = 0
+rotation = false
+n_blocks = 1
+uv_factor = 0
+
+[strategy]
+budget_factor = 10
+pass_percent = 0.3
+pass_divide = 5
+update_num_workers = true
+using_portfolio = false

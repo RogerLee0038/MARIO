@@ -1,0 +1,12 @@
+exp_name = "ota"
+func_names = [
+    "mAlfio_RAFFC",
+]
+func_sleep = 0
+
+exp_seed = 100
+repetition = 5
+algorithms = [["mbobyqa","mpycma"], ["mbobyqa","mpycma"], ["mbobyqa"], ["mpycma"]]
+num_worker_lists = [[1,4], [4,1], [5], [5]]
+togethers = [true]
+budget_factors = [10]

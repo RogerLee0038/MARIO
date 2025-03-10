@@ -1,0 +1,37 @@
+[algorithm]
+# algo_list = [
+#     "mturbo_at",
+#     "mpycma",
+#     "mDIRECT",
+# ]
+# algo_list = [
+#     "mDE",
+#     "mOnePlusOne",
+#     "mPSO",
+# ]
+# algo_list = [
+#     "mRandomSearch",
+#     "mTBPSA",
+# ]
+#algo_list = [
+#    "mbobyqa",
+#    "mneldermead",
+#    "mlbfgsb",
+#]
+algo_list = ["mpybobyqa", "mpycma"]
+num_worker_list = [
+    1, 4
+]
+together = true
+seed = 4037397315
+
+[target]
+func_name = "mtwo_stage_opamp"
+func_sleep = 0
+
+[strategy]
+budget = 60
+pass_percent = 0.3
+pass_divide = 5
+update_num_workers = true
+using_portfolio = true

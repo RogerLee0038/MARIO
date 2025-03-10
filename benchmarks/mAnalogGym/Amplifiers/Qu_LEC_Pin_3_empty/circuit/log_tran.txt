@@ -1,0 +1,10 @@
+Warning: can't find the initialization file spinit.
+
+Note: No compatibility mode selected!
+
+
+Circuit: test opamp tran
+
+Error: unknown subckt: xop6 vss vdd vout3 visr vout3 qu_lec_pin_3
+    Simulation interrupted due to error!
+

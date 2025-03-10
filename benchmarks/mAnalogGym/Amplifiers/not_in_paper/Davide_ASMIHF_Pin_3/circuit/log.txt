@@ -1,0 +1,110 @@
+Warning: can't find the initialization file spinit.
+
+Note: No compatibility mode selected!
+
+
+Circuit: test opamp acdc
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1650
+
+  Measurements for AC Analysis
+
+maxval              =  1.736929e+00 at=  1.249000e+02
+minval              =  9.284383e-01 at=  -4.000000e+01
+avgval              =  1.609730e+00 from=  -4.000000e+01 to=  1.249000e+02
+ppavl               =  8.084902e-01 from=  -4.000000e+01 to=  1.250000e+02
+tc                  =  3.04395e-03
+ivdd25              =  -1.984591e-04
+power               =  3.57226e-04
+vout25              =  1.620492e+00
+vos25               =  1.17049e+00
+
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 101
+
+  Measurements for AC Analysis
+
+
+Error: measure  gain_bandwidth_product  when(WHEN) : out of interval
+ .meas ac gain_bandwidth_product when vdb(opout)=0 failed!
+
+
+Error: measure  phase_in_rad  find(AT) : out of interval
+ .meas ac phase_in_rad find vp(opout) when vdb(opout)=0 failed!
+
+cmrrdc              =  -3.278198e+01
+dcgain              =  -1.681481e+01
+Netlist line no. 57:
+Undefined parameter [phase_in_rad]
+Netlist line no. 57:
+ Expression err: phase_in_rad*180/3.1416}
+Netlist line no. 57:
+Cannot compute substitute
+phase_in_deg        =   failed
+dcpsrp              =  -3.735134e+00
+dcpsrn              =  5.086942e+00
+
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+  Measurements for AC Analysis
+
+
+Error: measure  gain_bandwidth_product  when(WHEN) : out of interval
+ .meas ac gain_bandwidth_product when vdb(opout)=0 failed!
+
+
+Error: measure  phase_in_rad  find(AT) : out of interval
+ .meas ac phase_in_rad find vp(opout) when vdb(opout)=0 failed!
+
+cmrrdc              =  -3.278198e+01
+dcgain              =  -1.681481e+01
+Netlist line no. 57:
+Undefined parameter [phase_in_rad]
+Netlist line no. 57:
+ Expression err: phase_in_rad*180/3.1416}
+Netlist line no. 57:
+Cannot compute substitute
+phase_in_deg        =   failed
+dcpsrp              =  -3.735134e+00
+dcpsrn              =  5.086942e+00
+
+
+Total analysis time (seconds) = 1.759
+
+Total elapsed time (seconds) = 4.132 
+
+Total DRAM available = 1031447.344 MB.
+DRAM currently available = 921953.270 MB.
+Maximum ngspice program size =  219.531 MB.
+Current ngspice program size =  138.516 MB.
+
+Shared ngspice pages =    4.051 MB.
+Text (code) pages =    6.008 MB.
+Stack = 0 bytes.
+Library pages =  143.062 MB.
+

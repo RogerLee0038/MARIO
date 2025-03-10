@@ -1,0 +1,28 @@
+exp_name = "test"
+func_names = [
+    "ackley",
+    "rastrigin",
+    "rosenbrock",
+    "griewank",
+    "schwefel",
+    # "michalewicz",
+    # "lunacek",
+    # "deceptivemultimodal",
+    # "hm",
+    # "bucherastrigin",
+]
+# names += ["sphere", "doublelinearslope", "stepdoublelinearslope"]
+# names += ["cigar", "altcigar", "ellipsoid", "altellipsoid", "stepellipsoid", "discus", "bentcigar"]
+# names += ["deceptiveillcond", "deceptivemultimodal", "deceptivepath"]
+in_dims = [5,10]
+rotations = [false]
+uv_factors = [0]
+n_blockss = [1]
+func_sleep = 0
+
+exp_seed = 100
+repetition = 2
+algorithms = [["mbobyqa","mpycma"]]
+num_worker_lists = [[1,4]]
+togethers = [true]
+budget_factors = [4]

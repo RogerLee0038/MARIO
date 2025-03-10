@@ -1,0 +1,30 @@
+exp_name = "test_goc"
+func_names = [
+    "Ackley",
+    "CosineMixture",
+    "Exponential",
+    "Griewank",
+    "LevyMontalvo1",
+    "LevyMontalvo2",
+    "Neumaier3",
+    "Paviani", # f_star is not changeable
+    "Rastrigin",
+    "Rosenbrock",
+    "Salomon",
+    "Schwefel",
+    "Sinusoidal",
+    "PutativeMichalewicz",
+    "PutativeSineEnvelope",
+    "PutativeEggHolder",
+    "PutativeRana",
+]
+
+func_sleep = 1
+in_dims = [10]
+
+exp_seed = 100
+repetition = 1
+algorithms = [["mpybobyqa", "mpycma"]]
+num_worker_lists = [[1,4]]
+togethers = [true]
+budget_factors = [5]
