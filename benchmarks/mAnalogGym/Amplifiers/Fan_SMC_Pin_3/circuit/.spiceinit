@@ -1,0 +1,2 @@
+* User defined ngspice init file
+set filetype=ascii

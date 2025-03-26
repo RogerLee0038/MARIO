@@ -1,0 +1,20 @@
+[algorithm]
+algo_list = [
+    "mTBPSA",
+]
+num_worker_list = [
+    1,
+]
+together = true
+seed = 2650025827
+
+[target]
+func_name = "MyWood"
+func_sleep = 0
+
+[strategy]
+budget_factor = 10
+pass_percent = 0.3
+pass_divide = 5
+update_num_workers = true
+using_portfolio = true

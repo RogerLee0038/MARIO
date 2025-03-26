@@ -1,0 +1,115 @@
+Warning: can't find the initialization file spinit.
+
+Note: No compatibility mode selected!
+
+
+Circuit: test opamp tran
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+vss                                          0
+visr                                       0.3
+xop6.net057                           0.494652
+xop6.voutn                            0.938383
+xop6.net078                            1.73535
+xop6.vb1                              0.680081
+vout3                                      0.3
+xop6.net050                           0.938419
+xop6.net094                           0.492322
+xop6.net063                           0.673738
+xop6.net019                            1.41818
+xop6.dm_2                             0.673738
+xop6.vb4                              0.677981
+xop6.net077                            1.30347
+xop6.net082                            1.30347
+xop6.net051                           0.492322
+vvisr#branch                                 0
+v2#branch                          3.04408e-05
+v1#branch                         -3.04408e-05
+
+
+No. of Data Rows : 822
+
+  Measurements for Transient Analysis
+
+t_rise_edge         =   2.11413e-05
+t_rise_             =  2.01413e-05
+t_rise              =  2.01413e+01
+sr_rise             =  4.96493e-03
+t_fall_edge         =   2.05473e-04
+t_fall              =  4.47337e-06
+Netlist line no. 67:
+Undefined parameter [t_fall_]
+Netlist line no. 67:
+ Expression err: t_fall_*1e6}
+Netlist line no. 67:
+Cannot compute substitute
+t_fall              =   failed
+sr_fall             =  2.23545e+04
+
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+ASCII raw file "tran.dat"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+  Measurements for Transient Analysis
+
+t_rise_edge         =   2.11413e-05
+Netlist line no. 61:
+insertnumber: fails.
+  s = ".meas tran t_rise_ param=    2.014126257316387e-05   " u="  2.014126257316387e-05  " id=0
+t_rise_             =   failed
+Netlist line no. 62:
+insertnumber: fails.
+  s = ".meas tran t_rise param=    2.014126257316387e+01   " u="  2.014126257316387e+01  " id=0
+t_rise              =   failed
+Netlist line no. 63:
+insertnumber: fails.
+  s = ".meas tran sr_rise param=    4.964932046178652e-03   " u="  4.964932046178652e-03  " id=0
+sr_rise             =   failed
+t_fall_edge         =   2.05473e-04
+Netlist line no. 66:
+insertnumber: fails.
+  s = ".meas tran t_fall param=    4.473367302447852e-06   " u="  4.473367302447852e-06  " id=0
+t_fall              =   failed
+Netlist line no. 67:
+Undefined parameter [t_fall_]
+Netlist line no. 67:
+ Expression err: t_fall_*1e6}
+Netlist line no. 67:
+Cannot compute substitute
+t_fall              =   failed
+Netlist line no. 68:
+insertnumber: fails.
+  s = ".meas tran sr_fall param=    2.235452473247155e+04   " u="  2.235452473247155e+04  " id=0
+sr_fall             =   failed
+
+
+Total analysis time (seconds) = 0.371
+
+Total elapsed time (seconds) = 1.259 
+
+Total DRAM available = 1031447.340 MB.
+DRAM currently available = 578816.539 MB.
+Maximum ngspice program size =  114.621 MB.
+Current ngspice program size =   34.035 MB.
+
+Shared ngspice pages =    4.051 MB.
+Text (code) pages =    6.008 MB.
+Stack = 0 bytes.
+Library pages =   38.152 MB.
+

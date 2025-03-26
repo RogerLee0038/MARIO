@@ -1,0 +1,23 @@
+[algorithm]
+algo_list = [
+    "mpybobyqa",
+    "mpycma",
+]
+num_worker_list = [
+    1,
+    4,
+]
+together = true
+seed = 2882591512
+
+[target]
+func_name = "MyCosineMixture"
+func_sleep = 1
+in_dim = 10
+
+[strategy]
+budget_factor = 5
+pass_percent = 0.3
+pass_divide = 5
+update_num_workers = true
+using_portfolio = true

@@ -1,0 +1,167 @@
+Warning: can't find the initialization file spinit.
+
+Note: No compatibility mode selected!
+
+
+Circuit: test opamp tran
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+vss                                          0
+visr                                       0.3
+xop6.net1                              1.29311
+xop6.net4                             0.136538
+vout3                                  1.62177
+xop6.net3                                  1.8
+xop6.net013                           0.680081
+xop6.voutn                            0.277105
+xop6.net049                           0.800547
+xop6.dm_1                             0.471684
+xop6.net5                              1.71933
+xop6.net050                            1.71924
+xop6.net063                           0.017804
+xop6.net31                             1.49802
+xop6.dm_2                            0.0347951
+xop6.vb3                              0.794185
+xop6.vb4                               0.70259
+xop6.net54                           0.0913885
+xop6.net56                           0.0898516
+vvisr#branch                                 0
+v2#branch                          0.000198481
+v1#branch                         -0.000198481
+
+
+No. of Data Rows : 463
+
+  Measurements for Transient Analysis
+
+
+Error: measure  t_rise_edge  when(WHEN) : out of interval
+ .meas tran t_rise_edge when v(vout3)=0.4 rise=1 failed!
+
+
+Error: measure  t_fall_edge  when(WHEN) : out of interval
+ .meas tran t_fall_edge when v(vout3)=0.4 fall=1 failed!
+
+Netlist line no. 61:
+Undefined parameter [t_rise_edge]
+Netlist line no. 61:
+ Expression err: t_rise_edge-1u}
+Netlist line no. 61:
+Cannot compute substitute
+t_rise_             =   failed
+Netlist line no. 62:
+Undefined parameter [t_rise_]
+Netlist line no. 62:
+ Expression err: t_rise_*1e6}
+Netlist line no. 62:
+Cannot compute substitute
+t_rise              =   failed
+Netlist line no. 63:
+Undefined parameter [t_rise]
+Netlist line no. 63:
+Cannot compute substitute
+sr_rise             =   failed
+Netlist line no. 66:
+Undefined parameter [t_fall_edge]
+Netlist line no. 66:
+ Expression err: t_fall_edge-1u-step_time}
+Netlist line no. 66:
+Cannot compute substitute
+t_fall              =   failed
+Netlist line no. 67:
+Undefined parameter [t_fall_]
+Netlist line no. 67:
+ Expression err: t_fall_*1e6}
+Netlist line no. 67:
+Cannot compute substitute
+t_fall              =   failed
+Netlist line no. 68:
+Undefined parameter [t_fall]
+Netlist line no. 68:
+Cannot compute substitute
+sr_fall             =   failed
+
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+ASCII raw file "tran.dat"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+  Measurements for Transient Analysis
+
+
+Error: measure  t_rise_edge  when(WHEN) : out of interval
+ .meas tran t_rise_edge when v(vout3)=0.4 rise=1 failed!
+
+
+Error: measure  t_fall_edge  when(WHEN) : out of interval
+ .meas tran t_fall_edge when v(vout3)=0.4 fall=1 failed!
+
+Netlist line no. 61:
+Undefined parameter [t_rise_edge]
+Netlist line no. 61:
+ Expression err: t_rise_edge-1u}
+Netlist line no. 61:
+Cannot compute substitute
+t_rise_             =   failed
+Netlist line no. 62:
+Undefined parameter [t_rise_]
+Netlist line no. 62:
+ Expression err: t_rise_*1e6}
+Netlist line no. 62:
+Cannot compute substitute
+t_rise              =   failed
+Netlist line no. 63:
+Undefined parameter [t_rise]
+Netlist line no. 63:
+Cannot compute substitute
+sr_rise             =   failed
+Netlist line no. 66:
+Undefined parameter [t_fall_edge]
+Netlist line no. 66:
+ Expression err: t_fall_edge-1u-step_time}
+Netlist line no. 66:
+Cannot compute substitute
+t_fall              =   failed
+Netlist line no. 67:
+Undefined parameter [t_fall_]
+Netlist line no. 67:
+ Expression err: t_fall_*1e6}
+Netlist line no. 67:
+Cannot compute substitute
+t_fall              =   failed
+Netlist line no. 68:
+Undefined parameter [t_fall]
+Netlist line no. 68:
+Cannot compute substitute
+sr_fall             =   failed
+
+
+Total analysis time (seconds) = 0.085
+
+Total elapsed time (seconds) = 0.789 
+
+Total DRAM available = 1031447.344 MB.
+DRAM currently available = 922052.125 MB.
+Maximum ngspice program size =  120.461 MB.
+Current ngspice program size =   39.824 MB.
+
+Shared ngspice pages =    4.043 MB.
+Text (code) pages =    6.008 MB.
+Stack = 0 bytes.
+Library pages =   43.992 MB.
+

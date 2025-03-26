@@ -1,0 +1,61 @@
+exp_name = "test_go"
+func_names = [
+    "Ackley",
+    "AluffiPentini",
+    "BeckerLago",
+    "Bohachevsky1",
+    "Bohachevsky2",
+    "Branin",
+    "Camel3",
+    "Camel6",
+    "CosineMixture",
+    "DekkersAarts",
+    "Easom",
+    "Michalewicz5",
+    "Exponential",
+    "GoldsteinPrice",
+    "Griewank",
+    "Gulf",
+    "Hartman3",
+    "Hartman6",
+    "HelicalValley",
+    "Hosaki",
+    "Kowalik",
+    "LevyMontalvo1",
+    "LevyMontalvo2",
+    "McCormick",
+    "MeyerRoth",
+    "MieleCantrell",
+    "ModifiedLangerman10",
+    "ModifiedRosenbrock",
+    "MultiGaussian",
+    "Neumaier2",
+    "Neumaier3",
+    "OddSquare",
+    "Paviani",
+    "Periodic",
+    "PowellQuadratic",
+    "PriceTransistor",
+    "Rastrigin",
+    "Rosenbrock",
+    "Salomon",
+    "Schaffer1",
+    "Schaffer2",
+    "Schwefel",
+    "Shekel10",
+    "Shekel5",
+    "Shekel7",
+    "ShekelFoxholes10",
+    "Shubert",
+    "Sinusoidal",
+    "StornTchebyshev9",
+    "Wood",
+]
+func_sleep = 0
+
+exp_seed = 100
+repetition = 2
+algorithms = [["mpycma"],["mpybobyqa"],["mTBPSA"]]
+num_worker_lists = [[1], [1], [1]]
+togethers = [true]
+budget_factors = [10]
